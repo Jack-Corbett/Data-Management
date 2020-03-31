@@ -1,0 +1,1 @@
+SELECT hotelID FROM Reviews GROUP BY hotelID HAVING COUNT(hotelID) > 10;
